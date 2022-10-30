@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            
+            input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: none;
+                border-bottom: 2px solid red;
+            }
+            button{
+                background-color: red;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+        </style>
+        <title>Mesin Kasir</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <div>Masukkan barang barang yang ingin anda beli!</div>
+        <hr>
+        <form action="/input">
+            Nama barang <br><input type="text" name="var_name"><br>
+            Jumlah barang <br><input type="text" name="var_quantity"><br>
+            Harga barang <br><input type="text" name="var_price"><br>           
+            <button type="submit">Hitung</button>
+        </form>
+        credit by : Abid Ibadurrahman
+    </body>
+</html>
